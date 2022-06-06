@@ -2,13 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
-<Layout title="Welcome to Astro.">
+<Layout title="Welcome to My blog.">
 	<main>
-		<h1 class="text-center text-lg ">Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			Check out the <code>src/pages</code> directory to get started.<br/>
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
+		<h1 class="text-center text-lg ">Welcome to <span class="text-gradient">My blog</span></h1>
 		<ul role="list" class="link-card-grid">
 			<Card href="/Movie" title="Movie" body="Movie Lists" /> 
 			<Card href="https://astro.build/themes/" title="Integrations" body="Supercharge your project with new frameworks and libraries." /> 
@@ -53,21 +49,6 @@ import Card from '../components/Card.astro';
 		50% { background-position-y: 80%; }
 	}
 
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		background: #4F39FA;
-		padding: 1.0rem;
-		border-radius: 0.4rem;
-		color: var(--color-bg);
-	}
-
-	.instructions code {
-		font-size: 0.875em;
-		border: 0.1em solid var(--color-border);
-		border-radius: 4px;
-		padding: 0.15em 0.25em;
-	}
 	.link-card-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
