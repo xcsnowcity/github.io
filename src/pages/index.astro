@@ -2,27 +2,18 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
-<Layout title="Welcome to My blog.">
+<Layout title="My Precious." >
 	<main>
-		<h1 class="text-center text-lg ">Welcome to <span class="text-gradient">My blog</span></h1>
+		<h1 class="text-right text-xl italic">‘Precious, precious, precious!’ <br/>&horbar; Gollum cried.</h1>
 		<ul role="list" class="link-card-grid">
-			<Card href="/Movie" title="Movie" body="Movie Lists" /> 
-			<Card href="https://astro.build/themes/" title="Integrations" body="Supercharge your project with new frameworks and libraries." /> 
-			<Card href="https://astro.build/themes/" title="Themes" body="Explore a galaxy of community-built starter themes." /> 
-			<Card href="https://astro.build/chat/" title="Chat" body="Come say hi to our amazing Discord community. ❤️" />
+			<Card href="/Films" title="Films" body="Films Watched" /> 
+			<Card href="/Music" title="Music" body="Can't live without music" /> 
 		</ul>
 	</main>
 </Layout>
 
 <style>
-	@tailwind base;
-	@tailwind components;
-	@tailwind utilities;
-
-	:root {
-		--astro-gradient: linear-gradient(0deg,#4F39FA, #DA62C4);
-	}
-
+	
 	h1 {
 		margin: 2rem 0;
 	}
@@ -30,28 +21,12 @@ import Card from '../components/Card.astro';
 	main {
 		margin: auto;
     	padding: 1em;
-		max-width: 60ch;
-	}
-
-	.text-gradient {
-		font-weight: 900;
-		background-image: var(--astro-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 100% 200%;
-		background-position-y: 100%;
-		border-radius: 0.4rem;
-		animation: pulse 4s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		0%, 100% { background-position-y: 0%; }
-		50% { background-position-y: 80%; }
+		max-width: 75ch;
 	}
 
 	.link-card-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		/* grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr)); */
 		gap: 1rem;
 		padding: 0;
 	}

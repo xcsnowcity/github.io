@@ -1,9 +1,5 @@
 ---
-export interface Props {
-    title: string,
-    body: string,
-    href: string,
-}
+
 const {href, title, body} = Astro.props;
 ---
 <li class="link-card">
@@ -19,15 +15,11 @@ const {href, title, body} = Astro.props;
 </li>
 <style>
 
-	:root {
-		--link-gradient: linear-gradient(45deg, #4F39FA, #DA62C4 30%, var(--color-border) 60%);
-	}
-
 	.link-card {
 		list-style: none;
 		display: flex;
+		width: 100%;
 		padding: 0.15rem;
-		background-image: var(--link-gradient);
 		background-size: 400%;
 		border-radius: 0.5rem;
 		background-position: 100%;
@@ -40,7 +32,6 @@ const {href, title, body} = Astro.props;
 		line-height: 1.4;
 		padding: 1em 1.3em;
 		border-radius: 0.35rem;
-		color: var(--text-color);
 		background-color: white;
 		opacity: 0.8;
 	}
