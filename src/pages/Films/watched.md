@@ -1,7 +1,6 @@
 ---
 title: Movie Collection
 date: 1989
-layout: '../../layouts/BaseLayout.astro'
 ---
 
 | 影视剧名   | 上映年份 | 国别 | 类型 | 导演 | 主演                                                                        |

@@ -1,7 +1,6 @@
 ---
 title: Music Collection
 date: 1989
-layout: '../layouts/BaseLayout.astro'
 ---
 
 | Artist  | Album | Genres | Year | 

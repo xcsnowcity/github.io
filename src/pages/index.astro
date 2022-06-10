@@ -1,33 +1,9 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import App from "../components/App";
+
 ---
-<Layout title="My Precious." >
-	<main>
-		<h1 class="text-right text-xl italic">‘Precious, precious, precious!’ <br/>&horbar; Gollum cried.</h1>
-		<ul role="list" class="link-card-grid">
-			<Card href="/Films" title="Films" body="Films Watched" /> 
-			<Card href="/Music" title="Music" body="Can't live without music" /> 
-		</ul>
-	</main>
+
+<Layout title='Home' bgc='grey' >
+<App />
 </Layout>
-
-<style>
-	
-	h1 {
-		margin: 2rem 0;
-	}
-
-	main {
-		margin: auto;
-    	padding: 1em;
-		max-width: 75ch;
-	}
-
-	.link-card-grid {
-		display: grid;
-		/* grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr)); */
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
