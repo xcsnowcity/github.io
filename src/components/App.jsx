@@ -1,6 +1,4 @@
-import * as React from "react";
-import ReactDOM from "react-dom";
-import Button from "@mui/material/Button";
+import {Button} from "@mui/material";
 
 const App = () => {
   return (
