@@ -1,6 +1,6 @@
 ---
-const { title,bgc } = Astro.props;
-  
+const { title } = Astro.props;
+
 ---
 
 <!DOCTYPE html>
@@ -13,10 +13,13 @@ const { title,bgc } = Astro.props;
   <title>{title}</title>
 </head>
 
-<body class={bgc}>
+<body>
+  <header class="w-full bg-gray-900 text-slate-300  py-2" >
+    <h1 class="mx-3 text-2xl">My Collection</h1>
+  </header>
+
+
   <slot />
 </body>
 
 </html>
-
-
