@@ -1,0 +1,21 @@
+---
+import Layout from './Layout.astro';
+const { content } = Astro.props;
+
+---
+
+<Layout title={content.title}>
+    <div class="pb-5 ">
+        <div class="flex ">
+            <slot />
+        </div>
+    </div>
+
+    <!-- <List markdown={`#test`}/> -->
+</Layout>
+
+<style>
+    div.flex {
+        justify-content: center;
+    }
+</style>

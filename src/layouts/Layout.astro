@@ -10,12 +10,13 @@ const { title } = Astro.props;
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1,width=device-width">
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   <title>{title}</title>
 </head>
 
-<body>
-  <header class="w-full bg-gray-800 text-slate-300  py-2 text-center" >
-    <h1 class="mx-3 text-2xl">My Collection</h1>
+<body class="max-w-full">
+  <header class="w-full text-slate-300  py-2 text-center mb-10" >
+    <h1 class="mx-3 text-2xl mt-3">{title}</h1>
   </header>
   <slot />
 </body>

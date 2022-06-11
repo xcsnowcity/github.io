@@ -1,6 +1,6 @@
 ---
 title: Music Collection
-date: 1989
+date: 22.6.1
 ---
 
 | Artist  | Album | Genres | Year | 
