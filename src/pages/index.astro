@@ -1,11 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import BasicTabs from "../components/Tab";
-import BasicTable from "../components/Table"
+import Card from "../components/Card"
 
 ---
 
 <Layout title='Home'>
-<BasicTabs />
-<BasicTable />
+    <div class="lg:flex">
+        <Card name="影" img="/film.webp" />
+        <Card name="乐" img="/Beatles.jpg" />
+        <Card name="书" img="/book.avif" />
+    </div>
 </Layout>
