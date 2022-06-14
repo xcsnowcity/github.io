@@ -1,6 +1,7 @@
 ---
 title: Games Collection
 date: 22.6.12
+layout: ../../layouts/ListLayout.astro
 ---
 
 | Name  | Release Date | Genres | 

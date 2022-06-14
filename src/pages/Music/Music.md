@@ -1,6 +1,7 @@
 ---
 title: Music Collection
 date: 22.6.1
+layout: ../../layouts/ListLayout.astro
 ---
 
 | Artist  | Album | Genres | Year | 

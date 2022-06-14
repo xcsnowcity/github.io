@@ -1,7 +1,7 @@
 ---
-
 title: Books Collection
 date: 22.5.16
+layout: ../../layouts/ListLayout.astro
 ---
 
 | 书名        | 作者 | 出版年份 | 出版社                  |

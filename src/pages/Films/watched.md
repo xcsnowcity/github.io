@@ -1,7 +1,7 @@
 ---
 title: Film Collection
 date: 22.6.14
-
+layout: ../../layouts/ListLayout.astro
 ---
 
 | 剧名   | 年份 | 国别 | 类型 | 导演 | 主演    |
