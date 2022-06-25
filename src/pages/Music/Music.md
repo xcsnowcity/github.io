@@ -6,6 +6,8 @@ layout: ../../layouts/ListLayout.astro
 
 | Artist  | Album | Genres | Year | 
 |:---------|:--|:----|:----------|
+| Childish Gambino | "Awaken, My Love!" | Funk, R&B, Soul | 2016 |
+| Ariana Grande | thank u, next | Pop | 2019 |
 |4 Non Blondes|Bigger, Better, Faster, More!|Alternative Rock|1992|
 |Abba|ABBA Gold|Pop, Rock|2008|
 |AC/DC|Highway To Hell|Metal|1979|
