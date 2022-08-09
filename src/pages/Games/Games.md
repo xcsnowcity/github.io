@@ -6,6 +6,7 @@ layout: ../../layouts/ListLayout.astro
 
 | Name  | Release Date | Genres | 
 |:---------|:--|:---|
+| limbo | 2010 | Puzzle-platform Indie |
 | Bastion | 17 Aug, 2011 | Indie | 
 | BattleBlock Theater | 16 May, 2014 | Indie | 
 | Celeste | 25 Jan, 2018 | Indie | 
